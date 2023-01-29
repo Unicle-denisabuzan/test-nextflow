@@ -8,7 +8,7 @@ process sayHello {
     stdout
   script:
     """
-    sleep 100; echo '$x Unicle 2023!'; 
+    sleep 10; echo '$x Unicle 2023!'; 
     """
 }
 
